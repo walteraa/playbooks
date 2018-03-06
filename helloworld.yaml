@@ -1,7 +1,6 @@
 ---
 - name: Ansible Playbooks on ManageIQ
   hosts: localhost
-  connection: local
   tasks:
     - name: Hello World!
       shell: echo "I run on ManageIQ!"
